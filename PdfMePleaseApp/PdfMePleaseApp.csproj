@@ -261,7 +261,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Temp\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -308,6 +307,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Dependencies>
     <None Include="Properties\PublishProfiles\aaa.pubxml" />
+    <Content Include="Temp\Especiação  Mutaçãodocx015175.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
