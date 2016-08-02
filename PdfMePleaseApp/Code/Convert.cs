@@ -14,7 +14,7 @@ namespace PdfMePleaseApp.Code
             var documentConverter = new Mammoth.DocumentConverter();
             var result = documentConverter.ConvertToHtml(file.InputStream);
 
-            string fileName = file.FileName + Guid.NewGuid().ToString().Substring(0, 6) + ".pdf";
+            string fileName = file.FileName.Replace(".", "") + Guid.NewGuid().ToString().Substring(0, 6) + ".pdf";
 
             SelectPdf.HtmlToPdf converter = new SelectPdf.HtmlToPdf();
             SelectPdf.PdfDocument doc = converter.ConvertHtmlString(result.Value);
