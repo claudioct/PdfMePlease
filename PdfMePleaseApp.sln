@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfMePleaseApp", "PdfMePleaseApp\PdfMePleaseApp.csproj", "{65E21423-FBDF-4158-BE16-D80711C3578C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfMePleaseApp.Tests", "PdfMePleaseApp.Tests\PdfMePleaseApp.Tests.csproj", "{12D93011-138F-461B-AF0B-28C0FEB555FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65E21423-FBDF-4158-BE16-D80711C3578C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E21423-FBDF-4158-BE16-D80711C3578C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E21423-FBDF-4158-BE16-D80711C3578C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E21423-FBDF-4158-BE16-D80711C3578C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D93011-138F-461B-AF0B-28C0FEB555FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D93011-138F-461B-AF0B-28C0FEB555FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D93011-138F-461B-AF0B-28C0FEB555FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D93011-138F-461B-AF0B-28C0FEB555FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
