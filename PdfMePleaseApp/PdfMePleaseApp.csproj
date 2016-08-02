@@ -165,7 +165,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Select.Html.dep" />
+    <Content Include="bin\Select.Html.dep">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="css\freelancer.css" />
     <Content Include="css\freelancer.min.css" />
     <Content Include="favicon.ico" />
