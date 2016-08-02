@@ -165,6 +165,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Select.Html.dep" />
     <Content Include="css\freelancer.css" />
     <Content Include="css\freelancer.min.css" />
     <Content Include="favicon.ico" />
@@ -181,6 +182,13 @@
     <Content Include="Images\portfolio\submarine.png" />
     <Content Include="Images\profile.png" />
     <Content Include="Images\sb_favicon.ico" />
+    <Content Include="img\portfolio\cabin.png" />
+    <Content Include="img\portfolio\cake.png" />
+    <Content Include="img\portfolio\circus.png" />
+    <Content Include="img\portfolio\game.png" />
+    <Content Include="img\portfolio\safe.png" />
+    <Content Include="img\portfolio\submarine.png" />
+    <Content Include="img\profile.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\cbpAnimatedHeader.js" />
