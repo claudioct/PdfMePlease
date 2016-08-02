@@ -1,0 +1,14 @@
+<title>Freelancer - Start Bootstrap Theme</title>
+<link rel="shortcut icon" href="images/sb_favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/sb_favicon.ico" type="image/x-icon">
+<meta name="description" content="Freelancer - Start Bootstrap Theme">
+<meta name="keywords" content="Freelancer - Start Bootstrap Theme">
+<meta name="author" content="Freelancer - Start Bootstrap Theme">
+
+<meta property="og:url" content="http://startbootstrap.com/templates/freelancer/" />
+<meta property="og:site_name" content="Freelancer - Start Bootstrap Theme" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Freelancer - Start Bootstrap Theme" />
+<meta property="og:image" content="http://startbootstrap.com/templates/freelancer/img/profile.png" />
+<meta property="og:description" content="Open Graph Description" />
+<meta property="fb:admins" content="Facebook Admin" />
