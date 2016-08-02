@@ -165,9 +165,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Select.Html.dep">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="bin\Select.Html.dep" />
     <Content Include="css\freelancer.css" />
     <Content Include="css\freelancer.min.css" />
     <Content Include="favicon.ico" />
@@ -306,6 +304,10 @@
     <Content Include="vendor\font-awesome\scss\_stacked.scss" />
     <Content Include="vendor\font-awesome\scss\_variables.scss" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Dependencies Include="Resources\Select.Html.dep">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Dependencies>
+    <None Include="Properties\PublishProfiles\aaa.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
