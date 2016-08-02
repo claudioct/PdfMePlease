@@ -60,21 +60,38 @@
                     <div class="intro-text">
                         <span class="name">PDF Me, Please!</span>
                         <hr class="star-light">
-                        <span class="skills">
-                            <h2>Basic File Upload</h2>
                             @using (Html.BeginForm("Index",
-                                                    "Home",
-                                                    FormMethod.Post,
-                                                    new { enctype = "multipart/form-data" }))
+                                "Home",
+                                FormMethod.Post,
+                                new { enctype = "multipart/form-data", @class = "form-horizontal" }))
                             {
-                                <label for="file">Upload Image:</label>
+                                <!--
                                 <input type="file" name="file" id="file" /><br><br>
                                 <input type="submit" value="Upload Image" />
-                                <br><br>
                                 @ViewBag.Message
                                 <a href="@ViewBag.Link" class="navbar-brand">@ViewBag.FileName</a>
+                                -->
+                                <!-- File Button -->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for=""></label>
+                                    <div class="col-md-4">
+                                        <input type="file" name="file" id="file" class="input-file" >
+                                    </div>
+                                </div>
+                                <!-- Send Button -->
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="Send"></label>
+                                    <div class="col-md-4">
+                                        <input type="submit" class="btn btn-primary" title="Pdf me!" value="Pdf me!">
+                                    </div>
+                                </div>
+                                <!-- Output -->
+                                <div class="col-lg-12">
+                                    @ViewBag.Message
+                                    <br>
+                                    <a href="@ViewBag.Link" style="color:powderblue; text-decoration: none; ">@ViewBag.FileName</a>
+                                </div>
                             }
-                        </span>
                     </div>
                 </div>
             </div>
